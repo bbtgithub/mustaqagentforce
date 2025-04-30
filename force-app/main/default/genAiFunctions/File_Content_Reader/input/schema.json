@@ -1,0 +1,14 @@
+{
+  "required" : [ "fileId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "fileId" : {
+      "title" : "fileId",
+      "description" : "18 digit File Id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

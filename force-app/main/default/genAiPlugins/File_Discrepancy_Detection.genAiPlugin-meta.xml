@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiPluginUtterances>
+        <developerName>utterance_checkfilea0</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_checkfilea0</masterLabel>
+        <utterance>Check file and compare, show differences or discrepancy</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_checkfiled1</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_checkfiled1</masterLabel>
+        <utterance>Check file Discrepancy</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_checkgriev2</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_checkgriev2</masterLabel>
+        <utterance>Check grievance</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_detectcont3</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_detectcont3</masterLabel>
+        <utterance>Detect contract discrepancy</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_readfileda4</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_readfileda4</masterLabel>
+        <utterance>Read file data and compare</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_auditfile5</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_auditfile5</masterLabel>
+        <utterance>Audit file</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>Detect discrepancies between generated files and actual data in related records. Show comparison result to take prompt action</description>
+    <developerName>File_Discrepancy_Detection</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__SummarizeRecord</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>File_Content_Reader</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Read related file content of the current, read current record data, compare both data and show comparison summary for any differences or discrepancies</description>
+        <developerName>instruction_readrelate0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_readrelate0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ensure that the comparison is thorough and covers all relevant data points.</description>
+        <developerName>instruction_ensurethat1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ensurethat1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If a discrepancy is found between the generated file and the actual data, show them to user.</description>
+        <developerName>instruction_ifadiscrep2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifadiscrep2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Read all related files of the record, including contract files and subscription files.</description>
+        <developerName>instruction_readallrel3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_readallrel3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Always compare the summary of the record and the summary of the PDF file.</description>
+        <developerName>instruction_alwayscomp4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alwayscomp4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Show comparison result to take prompt action</description>
+        <developerName>instruction_showcompar5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_showcompar5</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Compare the summarize data in the generated file with the actual data in the record.</description>
+        <developerName>instruction_comparethe6</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_comparethe6</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>File Discrepancy Detection</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your task is to read the content of files related to the record, compare the file content with record fields, and reveal any disparities. always show the difference of the data to the user.</scope>
+</GenAiPlugin>
