@@ -6,11 +6,6 @@
 * There is a strong need for automation to improve accuracy, efficiency, and scalability in data verification workflows.
 
 
-
-* In the AI world, there are still places where users are manually cross-check document in the CRM System.
-* Moreoften these manual process are cumbersome, prolonged and still prone to human error which leads to data inconsistencies and inaccuracies.
-
-
 # Solution Overview
 
 **Intelligent Document Parsing:** Apply OCR/NLP to extract key data fields from documents for faster, accurate validation.
@@ -35,3 +30,9 @@ Another Admin User for testing:
 URL: https://login.salesforce.com
 Username: tarun@jpclouds.com.agentforce
 Password: agentforce1
+
+API Reference: https://www.convertapi.com/pdf-to-txt
+API Endpoint: https://v2.convertapi.com/convert/pdf/to/txt
+Method: POST
+Token: secret_OWPkf9Pz0T6ZaoR9
+Authorization Type:  Bearer
