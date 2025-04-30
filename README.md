@@ -31,6 +31,12 @@ URL: https://login.salesforce.com
 Username: tarun@jpclouds.com.agentforce
 Password: agentforce1
 
+
+Another Admin User for testing:
+URL: https://login.salesforce.com
+Username: epic.b8dd49aa72bc@orgfarm.com
+Password: orgfarm1234
+
 API Reference: https://www.convertapi.com/pdf-to-txt
 API Endpoint: https://v2.convertapi.com/convert/pdf/to/txt
 Method: POST
