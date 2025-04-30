@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aiPluginUtterances>
+        <developerName>utterance_aretherean0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_aretherean0</masterLabel>
+        <utterance>Are there any differences between the file and the record?</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_checkifthe1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_checkifthe1</masterLabel>
+        <utterance>Check if the PDF matches the Salesforce data.</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_comparethi2</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_comparethi2</masterLabel>
+        <utterance>Compare this PDF with the opportunity record.</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_matchfilec3</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_matchfilec3</masterLabel>
+        <utterance>Match file content with opportunity fields.</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_validateth4</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_validateth4</masterLabel>
+        <utterance>Validate the uploaded file against the CRM record.</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>This topic handles the extraction of text content from a PDF file and compares it with Salesforce record fields to identify any mismatches or discrepancies.</description>
+    <developerName>PDF_Text_Extraction_and_Comparison</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__GetRecordDetails</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyObjectByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyRecordByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__QueryRecords</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__UpdateRecordFields</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>File_Content_Reader</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Extract text content from the provided PDF file.</description>
+        <developerName>instruction_extracttex0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_extracttex0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Compare the extracted text with the corresponding Salesforce record fields.</description>
+        <developerName>instruction_comparethe1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_comparethe1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Identify and report any mismatches or discrepancies found between the PDF text and Salesforce records.</description>
+        <developerName>instruction_identifyan2</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_identifyan2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask for clarification if any required information is missing or unclear.</description>
+        <developerName>instruction_askforclar3</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_askforclar3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Log the results of the comparison for further review or action.</description>
+        <developerName>instruction_logtheresu4</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_logtheresu4</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>PDF Text Extraction and Comparison</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to extract text from the provided PDF file and compare it with Salesforce record fields to identify mismatches or discrepancies.</scope>
+</GenAiPlugin>

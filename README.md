@@ -1,18 +1,37 @@
-# Salesforce DX Project: Next Steps
+# Problem Statement
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+* ⁠Manual data validation is commonly used to cross-check documents with CRM records.  
+* ⁠It is prone to human error, leading to data inconsistencies and inaccuracies.  
+* Operational inefficiencies arise due to the repetitive nature of validation tasks.  
+* There is a strong need for automation to improve accuracy, efficiency, and scalability in data verification workflows.
 
-## How Do You Plan to Deploy Your Changes?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Configure Your Salesforce DX Project
+* In the AI world, there are still places where users are manually cross-check document in the CRM System.
+* Moreoften these manual process are cumbersome, prolonged and still prone to human error which leads to data inconsistencies and inaccuracies.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Read All About It
+# Solution Overview
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+**Intelligent Document Parsing:** Apply OCR/NLP to extract key data fields from documents for faster, accurate validation.
+**Automated Data Matching:** Use AI to auto-verify document data with CRM records in AgentForce, reducing manual checks.  
+
+# Bussiness Use Case
+
+**Product Sales:** Confirm negotiated quotations and generate accurate invoices.
+**Insurance:** Validate final quotations against CRM.
+**Healthcare:** Analyze reports, suggest specialists, generate pre-prescriptions.
+
+# [Demo](https://youtu.be/gjimgExcIG4)
+
+# [Presentaion](https://docs.google.com/presentation/d/1X8Tvy9Ahv2CoX-reXmdeTV3DPtzY8J6H/edit#slide=id.p5)
+
+# [Login Details] 
+URL : https://login.salesforce.com
+username: dhameliyasandip1992@gmail.com.agentforce
+password: Salesforce@2025
+
+Another Admin User for testing:
+URL: https://login.salesforce.com
+Username: tarun@jpclouds.com.agentforce
+Password: agentforce1
